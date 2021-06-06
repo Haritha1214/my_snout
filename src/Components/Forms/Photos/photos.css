@@ -1,0 +1,30 @@
+.images__upload .label{
+    display: block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    padding:6px;
+    background-color: black;
+    color:cornsilk;
+    border-top: 10px;
+    
+}
+.images__upload{
+    text-align: center;
+    margin: auto;
+    margin-top:50px;
+    padding-bottom:30px ;
+    width:50%;
+    height:70%;
+    background-color:linen;
+    border-radius: 10px;
+    
+}
+.images__upload input{
+    padding-top: 15px;
+}
+.btn__pics{
+    padding:10px;
+    background-color:mediumturquoise;
+    border-radius: 10px;
+
+}
+
