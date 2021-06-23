@@ -1,9 +1,8 @@
 import React, { Fragment,useState } from "react";
-import Forms from "../../Reusable/Forms";
-import Button from "../../Reusable/Button";
+import Forms from "../Reusable/Forms";
+import Button from "../Reusable/Button";
 import { Link } from "react-router-dom";
-import NavBtn from "../../Reusable/NavBtn"
-
+import NavBtn from "../Reusable/NavBtn";
 const Features = () => {
   const [Facilities, setFacilities]=useState('')
 
@@ -11,9 +10,15 @@ const Features = () => {
   return (
     <Fragment>
       <div>
-      <NavBtn cls4="btn active" link1="/HostelDetails" link2="/Rooms" link3="/preview" link4="/features"/>
-
-        </div>
+           
+           <NavBtn
+           cls4="btn active"
+             link1="/UpdateHostelDetails"
+             link2="/UpdateRooms"
+             link3="/Updatepreview"
+             link4="/Updatefeatures"
+           />
+         </div>
       <form action="">
       <h3>Features Available</h3>
         <div>
@@ -78,9 +83,9 @@ const Features = () => {
         <div>
           <h3>Home Rules</h3>
             
-          <Forms  id="Smoking" type="radio" label="Smoking"/>  
-          <Forms id="Drinking" type="radio" label="Drinking"/> 
-          <Forms id="Hostel Timing" type="radio" label="Hostel Timing"/>     
+          <Forms  id="Smoking" type="checkbox" label="Smoking"/>  
+          <Forms id="Drinking" type="checkbox" label="Drinking"/> 
+          <Forms id="Hostel Timing" type="checkbox" label="Hostel Timing"/>     
         </div>
         <div><label htmlFor="CustomFacilities">Custom Facilities</label>
             <textarea

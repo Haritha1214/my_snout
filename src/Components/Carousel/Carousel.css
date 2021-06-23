@@ -32,7 +32,7 @@
     color:white
 
 }
-.content h1{
+.content h2{
     font-size:70px;
     margin-top:40px;
 
@@ -48,12 +48,12 @@
     width:200px;
     height:70px;
     padding:15px,0;
-
+    font-size: larger;
     text-align: center;
     margin:20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border:2px solid #45C7AF;
+    border: 3.5px solid #45C7AF;
     background: transparent;
     color: white;
     cursor:pointer;

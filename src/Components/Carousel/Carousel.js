@@ -1,6 +1,7 @@
 import React from 'react';
 import  "./Carousel.css";
-
+import { Link } from "react-router-dom";
+ 
 
 
 const Carousel = () => {
@@ -9,8 +10,12 @@ const Carousel = () => {
             <div className="content">
               <blockquote><em>"JOIN AND GROW WITH OUR FAST GROWING COMMUNITY"</em></blockquote>
               <div>
-              <button className="button"><span className="fill_colour"></span>LIST YOUR PROPERTY</button>
-                
+              <Link to="/HostelDetails">  
+              <button className="button"><span className="fill_colour"></span>ADD HOSTEL</button>
+             </Link>
+             <Link to="/MyHostel">  
+              <button className="button"><span className="fill_colour"></span>MY HOSTEL</button>
+             </Link>
               </div>
             </div>
             

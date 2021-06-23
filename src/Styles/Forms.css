@@ -1,0 +1,30 @@
+.forms {
+  background: rgb(255, 255, 255);
+  max-width: 500px;
+  max-height: fit-content;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-size: 34px;
+}
+.each_div {
+  padding: 8px;
+}
+.navbtn {
+  text-align: center;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: 3px solid rgb(202, 202, 202);
+}
+label {
+  color: black;
+  margin-bottom: 5px;
+  font-size: 17.5px;
+  float: left;
+}

@@ -1,0 +1,20 @@
+.btn {
+  background-color: #00be49;
+  border: none;
+  color: rgb(228, 228, 228);
+  padding: 11px 22px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 8px 4px;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn.active {
+  background-color: #00be49;
+  color: rgb(0, 0, 0);
+}
+.btn:hover {
+  color: rgb(0, 0, 0);
+}
